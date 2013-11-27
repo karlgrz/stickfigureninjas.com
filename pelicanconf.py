@@ -61,6 +61,7 @@ PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
                            'Opensource/stickfigureninjas.com-plugins')
 PLUGINS = ['summary']
 
+SHOW_SUMMARY = False
 
 # The theme file should be updated so that the base header contains the line:
 #
