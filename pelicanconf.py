@@ -55,10 +55,8 @@ NOTEBOOK_DIR = 'downloads/notebooks'
 # Theme and plugins
 #  Theme requires http://github.com/duilio/pelican-octopress-theme/
 #  Plugins require http://github.com/getpelican/pelican-plugins/
-THEME = os.path.join(os.environ.get('HOME'),
-                     'Opensource/stickfigureninjas.com-theme/')
-PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
-                           'Opensource/stickfigureninjas.com-plugins')
+THEME = os.path.join('../stickfigureninjas.com-theme')
+PLUGIN_PATH = os.path.join('../stickfigureninjas.com-plugins')
 PLUGINS = ['summary']
 
 SHOW_SUMMARY = False
