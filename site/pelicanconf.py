@@ -47,7 +47,7 @@ DEFAULT_PAGINATION = 5
 #FILES_TO_COPY = [('favicon.png', 'favicon.png')]
 
 # This requires Pelican 3.3+
-STATIC_PATHS = ['images', 'favicon.ico']
+STATIC_PATHS = ['images', 'favicon.ico', 'favicon.png']
 
 CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
@@ -56,7 +56,7 @@ NOTEBOOK_DIR = 'downloads/notebooks'
 #  Theme requires http://github.com/duilio/pelican-octopress-theme/
 #  Plugins require http://github.com/getpelican/pelican-plugins/
 THEME = os.path.join('theme')
-PLUGIN_PATH = os.path.join('plugins')
+PLUGIN_PATHS = [os.path.join('plugins')]
 PLUGINS = ['summary']
 
 SHOW_SUMMARY = False
