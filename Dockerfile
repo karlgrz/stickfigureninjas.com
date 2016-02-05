@@ -1,14 +1,9 @@
-FROM karlgrz/ubuntu-14.04-base-nginx
-VOLUME [ "/var/log/nginx" ]
+FROM karlgrz/ubuntu-14.04-base-go
 EXPOSE 8003
 
-ADD root /
-
 ADD site /srv
+WORKDIR /srv
 
-RUN rm /etc/nginx/sites-enabled/default \
-	&& chmod 644 /etc/nginx/sites-enabled/*
+RUN rm -rf /srv/public && hugo
 
-RUN cd /srv && make publish
-
-CMD ["nginx"]
+CMD ["hugo", "server", "--bind=0.0.0.0", "--disableLiveReload=true", "--appendPort=false", "--port=8003", "--baseURL=https://stickfigureninjas.com/"]

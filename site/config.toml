@@ -1,0 +1,60 @@
+baseurl = "https://stickfigureninjas.com/"
+languageCode = "en-us"
+title = "Stick Figure Ninjas"
+theme = "strata"
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Karen Alms"
+	description = "Stick Figure Ninjas"
+
+	# Enable Google Analytics by inserting your tracking code
+	googleAnalytics = "UA-44558228-1"
+
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "boondocks_karen.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "**Stick Figure Ninjas**<br> ninjas...only, stick figure."
+		# The icons will be shown if you enter your username
+		twitter = ""
+		github = ""
+		dribbble = ""
+		facebook = ""
+
+		copyright = [
+			"&copy; Karen Alms",
+		]
+
+
+	[params.about]
+		title = "Stick Figure Ninjas"
+		content = "Hi! Thanks for reading Stick Figure Ninjas! You reach me at karen [at] stickfigureninjas [dot] com"
+
+
+	[params.portfolio]
+		title = "Recent Work"
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+		[[params.portfolio.gallery]]
+			image = "full/2013-10-03-big-pimpin.jpg"
+			thumb = "thumb/2013-10-03-big-pimpin.jpg"
+			title = "Big pimpin'."
+			description = "Big pimpin'."
+
+		[[params.portfolio.gallery]]
+			image = "full/2013-10-03-get-well.jpg"
+			thumb = "thumb/2013-10-03-get-well.jpg"
+			title = "Get well."
+			description = "Get well."
+
+		[[params.portfolio.gallery]]
+			image = "full/2013-10-03-grr-dot-dot-dot-arg.jpg"
+			thumb = "thumb/2013-10-03-grr-dot-dot-dot-arg.jpg"
+			title = "Grr...argg."
+			description = "Grr...argg."
+
+

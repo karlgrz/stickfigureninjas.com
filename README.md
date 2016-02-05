@@ -1,4 +1,4 @@
-karlgrz.com
+stickfigureninjas.com
 ===========
 
-Pelican for karlgrz.com
+Hugo for stickfigureninjas.com

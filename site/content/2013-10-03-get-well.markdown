@@ -1,7 +1,0 @@
-author: karen
-title: Get Well
-date: 2013-10-03 14:11
-comments: true
-category: 2013 
-
-[![Get Well](/images/2013-10-03-get-well/2013-10-03-get-well.jpg)](/images/2013-10-03-get-well/2013-10-03-get-well.jpg)
