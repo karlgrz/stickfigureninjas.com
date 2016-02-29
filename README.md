@@ -1,4 +1,4 @@
 stickfigureninjas.com
 ===========
 
-Hugo for stickfigureninjas.com
+Blog for stickfigureninjas.com
